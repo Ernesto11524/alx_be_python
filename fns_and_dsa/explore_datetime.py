@@ -14,6 +14,7 @@ num = int(num)
 def calculate_future_date():
     today = datetime.now().date()
     future_date = today + timedelta(days=num)
+    future_date = future_date.strftime("%Y-%m-%d")
     future_date = f"Future date: {future_date}" 
     return future_date
 
