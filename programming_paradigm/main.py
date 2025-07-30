@@ -7,9 +7,7 @@ def main():
         sys.exit(1)
 
     numerator = sys.argv[1]
-    numerator = float(numerator)
     denominator = sys.argv[2]
-    denominator = float(denominator)
 
     result = safe_divide(numerator, denominator)
     print(result)
