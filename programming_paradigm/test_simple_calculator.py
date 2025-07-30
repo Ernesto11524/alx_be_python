@@ -18,5 +18,5 @@ class test_class(unittest.TestCase):
         self.assertEqual(self.calc.multiply(14, 3), 11)
 
     def test_division(self):
-        self.assertEqual(self.calc.divide(7, 3) 4)
+        self.assertEqual(self.calc.divide(7, 3), 4)
         self.assertEqual(self.calc.divide(14, 0), None)
