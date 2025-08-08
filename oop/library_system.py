@@ -31,3 +31,5 @@ class Library:
 
             elif isinstance(book, Book):
                 print(f"Book: {book.title} by {book.author}")
+
+# __str__
